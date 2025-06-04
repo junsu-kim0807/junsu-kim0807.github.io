@@ -443,12 +443,10 @@ ninja.data = [{
             },},{id: "news-our-paper-salient-frequency-aware-exemplar-compression-for-resource-constrained-online-continual-learning-has-been-accepted-in-aaai-25",
           title: 'Our paper, Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning, has been...',
           description: "",
-          section: "News",},{id: "news-aaai-grant",
-          title: 'Aaai_grant',
+          section: "News",},{id: "news-received-aaai-2025-student-travel-grant-thank-you-aaai",
+          title: 'Received AAAI 2025 Student Travel Grant - Thank you AAAI!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/aaai_grant/";
-            },},{id: "news-our-paper-most-memory-oversubscription-aware-scheduling-for-tensor-migration-on-gpu-unified-storage-has-been-accepted-in-cal",
+          section: "News",},{id: "news-our-paper-most-memory-oversubscription-aware-scheduling-for-tensor-migration-on-gpu-unified-storage-has-been-accepted-in-cal",
           title: 'Our paper, MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage,...',
           description: "",
           section: "News",},{id: "projects-project-1",
