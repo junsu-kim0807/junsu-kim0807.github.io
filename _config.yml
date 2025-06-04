@@ -263,8 +263,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Junsu]
-  first_name: [Kim]
+  last_name: [Kim]
+  first_name: [Junsu]
 
   style: apa
   locale: en
