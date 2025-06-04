@@ -1,25 +1,8 @@
 ---
 ---
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
 @Article{kim2025most,
   abbr={CAL},
-  bibtex_show={true},
   selected={true},
   title={MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage},
   author={Kim, Junsu and Jeon, Jaebeom and Park, Jaeyong and Choi, Sangun and Gil, Minseong and Hong, Seokin and Koo, Gunjae and Yoon, Myung Kuk and Oh, Yunho},
@@ -33,4 +16,155 @@ MOST effectively selects and migrates tensors that can mitigate memory oversubsc
 Our evaluation shows that MOST achieves an average speedup of 22.9% and 12.8% over state-of-the-art techniques, DeepUM and G10, respectively.},
   journal={IEEE Computer Architecture Letters (CAL)},
   year={2025}
+}
+
+
+@inproceedings{kim2025sfec,
+  abbr = {AAAI},
+  title={Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning}, 
+  author={Kim, Junsu and Kim, Suhyun},
+  booktitle={The 39th Annual AAAI Conference on Artificial Intelligence (AAAI)},
+  abstract={Online Class-Incremental Learning (OCIL) enables a model to learn new classes from a data stream. Since data stream samples are seen only once and the capacity of storage is constrained, OCIL is particularly susceptible to Catastrophic Forgetting (CF). While exemplar replay methods alleviate CF by storing representative samples, the limited capacity of the buffer inhibits capturing the entire old data distribution, leading to CF. In this regard, recent papers suggest image compression for better memory usage. However, existing methods raise two concerns: computational overhead and compression defects. On one hand, computational overhead can limit their applicability in OCIL settings, as models might miss learning opportunities from the current streaming data if computational resources are budgeted and preoccupied with compression. On the other hand, typical compression schemes demanding low computational overhead, such as JPEG, introduce noise detrimental to training. To address these issues, we propose Salient Frequency-aware Exemplar Compression (SFEC), an efficient and effective JPEG-based compression framework. SFEC exploits saliency information in the frequency domain to reduce negative impacts from compression artifacts for learning. Moreover, SFEC employs weighted sampling for exemplar elimination based on the distance between raw and compressed data to mitigate artifacts further. Our experiments employing the baseline OCIL method on benchmark datasets such as CIFAR-100 and Mini-ImageNet demonstrate the superiority of SFEC over previous exemplar compression methods in streaming scenarios.
+},
+  kind = {conference},
+  selected = {true},
+  year={2025},
+}
+
+@inproceedings{kim2025kubism,
+  abbr = {LCTES},
+  title={Kubism: Disassembling and Reassembling K-Means Clustering for Mobile Heterogeneous Platforms}, 
+  author={Kim, Seondeok and Choi, Sangun and Jeon, Jaebeom and Kim, Junsu and Gil, Minseong and Ryu, Jaehyeok and Oh, Yunho},
+  booktitle={The 26th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)},
+  abstract={K-means clustering is widely used in applications such as
+data classification, recommendation systems, and image processing due to its simplicity and efficiency. While it is commonly deployed in server environments, mobile platforms
+also rely on K-means clustering for tasks like sensor data
+processing. However, mobile platforms face significant hardware and energy constraints, making efficient execution of
+K-means clustering a challenge. Prior work has proposed
+parallel K-means clustering algorithm. However, it still underutilizes hardware resources on embedded GPUs, suffering
+from warp divergence and idle CPU cycles. This paper proposes Kubism, a novel software technique that disassembles
+and reassembles a K-means clustering algorithm to maximize
+CPU and GPU resource utilization on mobile platforms. Kubism incorporates several key strategies, including reordering operations to minimize unnecessary work, ensuring balanced workloads across processing units to avoid idle time,
+dynamically adjusting task execution based on real-time performance metrics, and distributing computation efficiently
+between the CPU and GPU. These methods synergistically
+improve performance by reducing idle periods and optimizing the use of hardware resources. In our evaluation on the NVIDIA Jetson Orin AGX platform, Kubism achieves up to
+a 2.65× speedup in individual clustering iterations and an
+average 1.23× improvement in overall end-to-end execution
+time compared to prior work.},
+  selected = {true},
+  year={2025},
+}
+
+@inproceedings{yang2025ssfft,
+  abbr = {LCTES},
+  title={SSFFT: Energy-Efficient Selective Scaling for Fast Fourier Transform in Embedded GPUs}, 
+  author={Yang, Dongwon and Jeon, Jaebeom and Gil, Minseong and Kim, Junsu and, Kim, Seondeok and Koo, Gunjae and Yoon, Myung Kuk and Oh, Yunho},
+  booktitle={The 26th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)},
+  abstract={Fast Fourier Transform (FFT) is critical in applications such
+as signal processing, communications, and AI. Embedded
+GPUs are often used to accelerate FFT due to their computational
+efficiency, but energy efficiency remains a key
+challenge due to power constraints. Existing solutions, such
+as the cuFFT library provided by NVIDIA, employ static
+configurations for the number of thread blocks and threads
+per block. This static approach often results in ineffective
+threads that consume power without contributing to performance,
+particularly if the FFT length or batch size varies. Furthermore,
+for large FFT lengths, cuFFT internally splits the
+computation into multiple kernel invocations. This decomposition
+can lead to L2 cache thrashing, where intermediate
+data written by one kernel is evicted before being reused
+by the next, resulting in redundant global memory accesses
+and degraded efficiency. To address these challenges, this
+paper proposes SSFFT, a software technique for embedded
+GPUs. The key idea of SSFFT is to maximize the number of
+useful threads that contribute to performance while minimizing
+ineffective threads. SSFFT is implemented based on a
+novel theoretical model that determines how many thread
+blocks and threads per block are effective for a given FFT
+length, batch size, and hardware resource availability. SSFFT
+statically determines these configurations and adaptively
+launches either a GPU kernel for regular FFT operations or a
+newly implemented kernel that integrates multiple FFT steps.
+By tailoring thread allocation to workload characteristics
+and minimizing inter-kernel memory interference, SSFFT
+improves energy efficiency without compromising performance.
+In our evaluation, SSFFT achieves a 1.29× speedup and a 1.26× improvement in throughput per watt compared
+to cuFFT.},
+  selected = {true},
+  year={2025},
+}
+
+
+@Article{gil2024tlp,
+  abbr = {ESL},
+  title={TLP Balancer: Predictive Thread Allocation for Multi-Tenant Inference in Embedded GPUs}, 
+  author={Gil, Minseong and Jeon, Jaebeom and  and Kim, Junsu and Choi, Sangun and Koo, Gunjae and Yoon, Myung Kuk and Oh, Yunho},
+  abstract={This paper introduces a novel software technique to optimize thread allocation for merged and fused kernels in multi-tenant inference systems on embedded Graphics Processing Units (GPUs).
+Embedded systems equipped with GPUs face challenges in managing diverse deep learning workloads while adhering to Quality-of-Service (QoS) standards, primarily due to limited hardware resources and the varied nature of deep learning models. 
+Prior work has relied on static thread allocation strategies, often leading to suboptimal hardware utilization. 
+To address these challenges, we propose a new software technique called TLP Balancer. 
+TLP Balancer automatically identifies the best-performing number of threads based on performance modeling. 
+This approach significantly enhances hardware utilization and ensures QoS compliance, outperforming traditional fixed-thread allocation methods. 
+Our evaluation shows that TLP Balancer improves throughput by 40\% compared to the state-of-the-art automated kernel merge and fusion techniques.
+},
+  journal={The IEEE Embedded Systems Letters (ESL)},
+  selected = {true},
+  year={2024},
+}
+
+
+@inproceedings{jeon2024vitbit,
+  abbr = {ICPP},
+  bibtex_show = {true},
+  title={VitBit: Enhancing Embedded GPU Performance for AI Workloads through Register Operand Packing}, 
+  author={Jeon, Jaebeom and Gil, Minseong and Kim, Junsu and Park, Jaeyong and Koo, Gunjae and Yoon, Myung Kuk and Oh, Yunho},
+  booktitle={The 53rd International Conference on Parallel Processing (ICPP)},
+  abstract={The rapid advancement of Artificial Intelligence (AI) necessitates
+significant enhancements in the energy efficiency of Graphics Pro-
+cessing Units (GPUs) for Deep Neural Network (DNN) workloads.
+Such a challenge is particularly critical for embedded GPUs, which
+operate within stringent power constraints. Traditional GPU ar-
+chitectures, designed to support a limited set of numeric formats,
+face challenges in meeting the diverse requirements of modern
+AI applications. These applications demand support for various
+numeric formats to optimize computational speed and efficiency.
+This paper proposes VitBit, a novel software technique designed
+to overcome these limitations by enabling efficient processing of
+arbitrary integer format values, especially those 8 bits or fewer,
+which are increasingly prevalent in AI workloads. VitBit introduces
+two key innovations: the packing of arbitrary integer formats for
+parallel computation and the simultaneous execution of Tensor
+cores, INT and FP (Integer and Floating-Point) CUDA cores. This
+approach leverages the architectural features of modern GPUs, such
+as those based on NVIDIA Ampere architecture, which allows con-
+current operation of FP32 and INT32 cores at full throughput. Our
+evaluation of VitBit on NVIDIA Jetson AGX Orin demonstrates
+substantial improvements in arithmetic density and peak through-
+put, achieving up to a 22% reduction in execution time for bench-
+mark AI workloads without compromising computational accuracy.
+VitBit effectively bridges the gap between current hardware capa-
+bilities and the computational demands of AI, offering a scalable
+and cost-effective method for enhancing GPU performance in AI
+applications.},
+  kind = {conference},
+  selected = {true},
+  year={2024},
+}
+
+
+
+@inproceedings{kim2021hammerfilter,
+  abbr = {ICCD},
+  bibtex_show = {true},
+  title={HammerFilter: Robust Protection and Low Hardware Overhead Method for RowHammer}, 
+  author={Kim, Kwangrae and Woo, Jeonghyun and Kim, Junsu and Chung, Ki-Seok},
+  booktitle={2021 IEEE 39th International Conference on Computer Design (ICCD)},
+  pages={212-219},
+  abstract={The continuous scaling-down of the dynamic random access memory (DRAM) manufacturing process has made it possible to improve DRAM density. However, it makes small DRAM cells susceptible to electromagnetic interference between nearby cells. Unless DRAM cells are adequately isolated from each other, the frequent switching access of some cells may lead to unintended bit flips in adjacent cells. This phenomenon is commonly referred to as RowHammer. It is often considered a security issue because unusually frequent accesses to a small set of rows generated by malicious attacks can cause bit flips. Such bit flips may also be caused by general applications. Although several solutions have been proposed, most approaches either incur excessive area overhead or exhibit limited prevention capabilities against maliciously crafted attack patterns. Therefore, the goals of this study are (1) to mitigate RowHammer, even when the number of aggressor rows increases and attack patterns become complicated, and (2) to implement the method with a low area overhead.We propose a robust hardware-based protection method for RowHammer attacks with a low hardware cost called HammerFilter, which employs a modified version of the counting bloom filter. It tracks all attacking rows efficiently by leveraging the fact that the counting bloom filter is a space-efficient data structure, and we add an operation, HALF-DELETE, to mitigate the energy overhead. According to our experimental results, the proposed method can completely prevent bit flips when facing artificially crafted attack patterns (five patterns in our experiments), whereas state-of-the-art probabilistic solutions can only mitigate less than 56% of bit flips on average. Furthermore, the proposed method has a much lower area cost compared to existing counter-based solutions (40.6&#x00D7; better than TWiCe and 2.3&#x00D7; better than Graphene).},
+  doi={10.1109/ICCD53106.2021.00043},
+  ISSN={2576-6996},
+  kind = {conference},
+  selected = {true},
+  year={2021},
 }
