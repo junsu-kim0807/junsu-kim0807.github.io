@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-salient-frequency-aware-exemplar-compression-for-resource-constrained-online-continual-learning-has-been-accepted-in-aaai-25",
+          title: 'Our paper, Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning, has been...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-aaai-grant",
+          title: 'Aaai_grant',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/aaai_grant/";
+            },},{id: "news-our-paper-most-memory-oversubscription-aware-scheduling-for-tensor-migration-on-gpu-unified-storage-has-been-accepted-in-cal",
+          title: 'Our paper, MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage,...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
