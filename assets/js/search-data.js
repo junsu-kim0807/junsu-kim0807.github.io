@@ -398,13 +398,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-salient-frequency-aware-exemplar-compression-for-resource-constrained-online-continual-learning-has-been-accepted-in-aaai-25",
+            },},{id: "news-our-paper-salient-frequency-aware-exemplar-compression-for-resource-constrained-online-continual-learning-has-been-accepted-at-aaai-25",
           title: 'Our paper, Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning, has been...',
           description: "",
           section: "News",},{id: "news-received-aaai-2025-student-travel-grant-thank-you-aaai",
           title: 'Received AAAI 2025 Student Travel Grant - Thank you AAAI!',
           description: "",
-          section: "News",},{id: "news-our-paper-most-memory-oversubscription-aware-scheduling-for-tensor-migration-on-gpu-unified-storage-has-been-accepted-in-cal",
+          section: "News",},{id: "news-our-paper-most-memory-oversubscription-aware-scheduling-for-tensor-migration-on-gpu-unified-storage-has-been-accepted-at-cal",
           title: 'Our paper, MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage,...',
           description: "",
           section: "News",},{
