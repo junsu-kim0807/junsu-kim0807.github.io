@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, <b>MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage</b>, has been accepted in <b>CAL</b>!
+Our paper, <b>MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage</b>, has been accepted at <b>CAL</b>!

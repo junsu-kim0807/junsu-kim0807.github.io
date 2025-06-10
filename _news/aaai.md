@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, <b>Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning</b>, has been accepted in <b>AAAI'25</b>!
+Our paper, <b>Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning</b>, has been accepted at <b>AAAI'25</b>!
