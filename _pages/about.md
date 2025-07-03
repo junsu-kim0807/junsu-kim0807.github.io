@@ -9,7 +9,7 @@ profile:
   image: Profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Email: j0807s@korea.ac.kr</p>
+    <p>Email: junsukim@ece.ubc.ca</p>
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
