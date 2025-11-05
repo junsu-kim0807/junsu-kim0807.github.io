@@ -407,6 +407,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-most-memory-oversubscription-aware-scheduling-for-tensor-migration-on-gpu-unified-storage-has-been-accepted-at-cal",
           title: 'Our paper, MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage,...',
           description: "",
+          section: "News",},{id: "news-will-be-serving-as-a-student-volunteer-at-spice-workshop-at-micro-25",
+          title: 'Will be serving as a student volunteer at SPICE Workshop at MICRO’25.',
+          description: "",
+          section: "News",},{id: "news-received-faculty-of-applied-science-graduate-award-gsi",
+          title: 'Received Faculty of Applied Science Graduate Award (GSI)!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
