@@ -28,6 +28,8 @@ latest_posts:
 
 I am a first-year Ph.D. student in the Department of Electrical and Computer Engineering (ECE) at the University of British Columbia (UBC), under the guidance of [Prof. Prashant Nair](https://prashantnair.bitbucket.io/).
 
-My research interests lie in the areas of Computer Architecture, Systems, and Artificial Intelligence (AI). I aim to bridge the gap between computer architecture/systems and emerging AI applications via algorithm, system, and hardware co-design. 
+<!-- My research interests lie in the areas of Computer Architecture, Systems, and Artificial Intelligence (AI). I aim to bridge the gap between computer architecture/systems and emerging AI applications via algorithm, system, and hardware co-design.  -->
+
+My research interests lie in computer architecture and systems for ML and AI. Currently, I am working on developing efficient KV cache management and speculative decoding frameworks for fast and accurate inference with LLMs.
 
 <!-- Before I joined UBC, I worked with [Prof. Yunho Oh](https://yunho-oh.github.io/) at Korea Univeristy and [Prof. Suhyun Kim](https://www.linkedin.com/in/suhyunk/?originalSubdomain=kr) at Korea Institute of Science and Technology (KIST). I received my B.S. with honors from Hanyang University. -->
