@@ -406,6 +406,9 @@ ninja.data = [{
           section: "News",},{id: "news-received-faculty-of-applied-science-graduate-award-gsi",
           title: 'Received Faculty of Applied Science Graduate Award (GSI)!',
           description: "",
+          section: "News",},{id: "news-will-be-interning-at-d-matrix",
+          title: 'Will be interning at d-Matrix!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
