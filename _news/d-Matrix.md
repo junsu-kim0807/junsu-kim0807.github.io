@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Will be interning at d-Matrix!
+Will be interning at <b>d-Matrix</b>!
