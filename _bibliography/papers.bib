@@ -1,6 +1,17 @@
 ---
 ---
 
+
+@inproceedings{woo2026prism,
+  abbr = {ISCA},
+  selected = {true},
+  title={Loaded Dices: Solving the Non-Selection Problem for Scalable Probabilistic RowHammer Defense}, 
+  author={Woo, Jeonghyun*, Kim, Junsu*, Jaleel, Aamer and Nair, Prashant J.},
+  booktitle={53rd Annual International Symposium on Computer Architecture (ISCA)},
+  year={2026},
+}
+
+
 @Article{kim2025most,
   abbr={CAL},
   selected={true},
@@ -25,7 +36,7 @@ Our evaluation shows that MOST achieves an average speedup of 22.9% and 12.8% ov
   selected = {true},
   title={Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning}, 
   author={Kim, Junsu and Kim, Suhyun},
-  booktitle={The 39th Annual AAAI Conference on Artificial Intelligence (AAAI)},
+  booktitle={39th Annual AAAI Conference on Artificial Intelligence (AAAI)},
   abstract={Online Class-Incremental Learning (OCIL) enables a model to learn new classes from a data stream. Since data stream samples are seen only once and the capacity of storage is constrained, OCIL is particularly susceptible to Catastrophic Forgetting (CF). While exemplar replay methods alleviate CF by storing representative samples, the limited capacity of the buffer inhibits capturing the entire old data distribution, leading to CF. In this regard, recent papers suggest image compression for better memory usage. However, existing methods raise two concerns: computational overhead and compression defects. On one hand, computational overhead can limit their applicability in OCIL settings, as models might miss learning opportunities from the current streaming data if computational resources are budgeted and preoccupied with compression. On the other hand, typical compression schemes demanding low computational overhead, such as JPEG, introduce noise detrimental to training. To address these issues, we propose Salient Frequency-aware Exemplar Compression (SFEC), an efficient and effective JPEG-based compression framework. SFEC exploits saliency information in the frequency domain to reduce negative impacts from compression artifacts for learning. Moreover, SFEC employs weighted sampling for exemplar elimination based on the distance between raw and compressed data to mitigate artifacts further. Our experiments employing the baseline OCIL method on benchmark datasets such as CIFAR-100 and Mini-ImageNet demonstrate the superiority of SFEC over previous exemplar compression methods in streaming scenarios.
 },
   year={2025},
@@ -37,7 +48,7 @@ Our evaluation shows that MOST achieves an average speedup of 22.9% and 12.8% ov
   selected={false},
   title={Kubism: Disassembling and Reassembling K-Means Clustering for Mobile Heterogeneous Platforms}, 
   author={Kim, Seondeok and Choi, Sangun and Jeon, Jaebeom and Kim, Junsu and Gil, Minseong and Ryu, Jaehyeok and Oh, Yunho},
-  booktitle={The 26th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)},
+  booktitle={26th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)},
   abstract={K-means clustering is widely used in applications such as
 data classification, recommendation systems, and image processing due to its simplicity and efficiency. While it is commonly deployed in server environments, mobile platforms
 also rely on K-means clustering for tasks like sensor data
@@ -62,7 +73,7 @@ time compared to prior work.},
   selected={false},
   title={SSFFT: Energy-Efficient Selective Scaling for Fast Fourier Transform in Embedded GPUs}, 
   author={Yang, Dongwon and Jeon, Jaebeom and Gil, Minseong and Kim, Junsu and Kim, Seondeok and Koo, Gunjae and Yoon, Myung Kuk and Oh, Yunho},
-  booktitle={The 26th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)},
+  booktitle={26th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)},
   abstract={Fast Fourier Transform (FFT) is critical in applications such
 as signal processing, communications, and AI. Embedded
 GPUs are often used to accelerate FFT due to their computational
@@ -112,7 +123,7 @@ TLP Balancer automatically identifies the best-performing number of threads base
 This approach significantly enhances hardware utilization and ensures QoS compliance, outperforming traditional fixed-thread allocation methods. 
 Our evaluation shows that TLP Balancer improves throughput by 40\% compared to the state-of-the-art automated kernel merge and fusion techniques.
 },
-  journal={The IEEE Embedded Systems Letters (ESL)},
+  journal={IEEE Embedded Systems Letters (ESL)},
   year={2024},
   pdf={tlpbalancer_esl2024.pdf}
 }
