@@ -409,6 +409,9 @@ ninja.data = [{
           section: "News",},{id: "news-will-be-interning-at-d-matrix",
           title: 'Will be interning at d-Matrix!',
           description: "",
+          section: "News",},{id: "news-our-paper-loaded-dices-solving-the-non-selection-problem-for-scalable-probabilistic-rowhammer-defense-has-been-accepted-at-isca-26",
+          title: 'Our paper, Loaded Dices: Solving the Non-Selection Problem for Scalable Probabilistic RowHammer Defense,...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
