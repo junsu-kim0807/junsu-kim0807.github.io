@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: Profile2.jpg
+  image: Profile2.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Email: junsukim[at]ece[dot]ubc[dot]ca</p>
