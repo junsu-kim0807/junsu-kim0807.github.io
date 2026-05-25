@@ -412,6 +412,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-loaded-dices-solving-the-non-selection-problem-for-scalable-probabilistic-rowhammer-defense-has-been-accepted-at-isca-26",
           title: 'Our paper, Loaded Dices: Solving the Non-Selection Problem for Scalable Probabilistic RowHammer Defense,...',
           description: "",
+          section: "News",},{id: "news-received-isca-2026-student-travel-grant-thank-you-isca",
+          title: 'Received ISCA 2026 Student Travel Grant - Thank you ISCA!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
