@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, <b>Loaded Dices: Solving the Non-Selection Problem for Scalable Probabilistic RowHammer Defense</b>, has been accepted at [ISCA'26](https://iscaconf.org/isca2026/)!
+Our paper, <b>Loaded Dice: Solving the Non-Selection Problem for Scalable Probabilistic RowHammer Defense</b>, has been accepted at [ISCA'26](https://iscaconf.org/isca2026/)!
