@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first-year Ph.D. student in the Department of Electrical and Computer Engineering (ECE) at the University of British Columbia (UBC), under the guidance of [Prof. Prashant Nair](https://prashantnair.bitbucket.io/).
+I am a second-year Ph.D. student in the Department of Electrical and Computer Engineering (ECE) at the University of British Columbia (UBC), under the guidance of [Prof. Prashant Nair](https://prashantnair.bitbucket.io/).
 
 <!-- My research interests lie in the areas of Computer Architecture, Systems, and Artificial Intelligence (AI). I aim to bridge the gap between computer architecture/systems and emerging AI applications via algorithm, system, and hardware co-design.  -->
 
